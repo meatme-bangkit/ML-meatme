@@ -1,5 +1,5 @@
 # Machine Learning Path Repository Meatme
-This repository used for image processing and creating model detection for MeatMe. We use dataset from kaggle then we built model using CNN method. At the end of the model, we will transform the model to tflite.
+This repository used for image processing and creating model detection for MeatMe. We use dataset from kaggle then we built model using CNN method. At the end of the model, we will transform the model to file .H5 and tflite.
 
 ## Workflow
 Search Image Dataset :arrow_right: Image Preprocessing :arrow_right: Creating Model Detection :arrow_right: Convert to file .H5 :arrow_right: Deploy to Android with API
@@ -13,7 +13,7 @@ We gather our image Dataset from Kaggle and we separate the images into 4 classe
 
 ## Image Preprocessing 
 In Image Preprocessing, our team performs two image preprocessing techniques:
-1. Normalization 
+1. Normalization and Resize Image Dataset 
 2. Data Augmentation
 
 ## Creating Model Detection
